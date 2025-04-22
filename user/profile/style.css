@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.profil-page {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.sidebar {
+    width: 260px;
+    background: #ffffff;
+    border-right: 1px solid #eee;
+    padding: 20px;
+}
+
+.profil-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profil-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.edit-profile {
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-title {
+    font-size: 13px;
+    margin: 20px 0 10px;
+    color: #999;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.menu a i {
+    width: 20px;
+    margin-right: 10px;
+    stroke-width: 1.5;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 40px;
+}
+
+.form-left {
+    flex: 1;
+}
+
+.form-left label {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #333;
+}
+
+.form-left input, .form-left select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.btn-simpan {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-simpan:hover {
+    background: #0056b3;
+}
+
+.form-right {
+    width: 220px;
+    text-align: center;
+}
+
+.form-right img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-btn input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.img-info {
+    font-size: 12px;
+    color: #777;
+    margin-top: 8px;
+}
